@@ -1,5 +1,17 @@
-<hero-search></hero-search>
-<!--<h2>Custom Modal example:</h2>
-<button (click)="openCustom()">Custom Modal</button>
-<h2>See systemjs.config.js implementation for UMD vs module loading</h2>
--->
+<lavel
+  [labelvalue]="labelvalue1"
+  [tagname]="tagname1"
+  [labelid]="labelid1"
+  [labelclass]="labelclass1">
+</lavel>
+
+<btn
+  [type]="type"
+  [disabled]="disabled"
+  [buttonvalue]="buttonvalue"
+  [buttonid]="buttonid"
+  [buttonclass]="buttonclass"
+  [onclk]="onclk"
+  (log)="log($event)">
+</btn>
+<router-outlet></router-outlet>
